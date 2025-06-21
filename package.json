@@ -1,0 +1,29 @@
+{
+  "name": "notesappapi",
+  "version": "1.0.0",
+  "description": "A notes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinsinha1304/NotesAppApi.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Expressjs",
+    "Docker"
+  ],
+  "author": "Sachin Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinsinha1304/NotesAppApi/issues"
+  },
+  "homepage": "https://github.com/sachinsinha1304/NotesAppApi#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}

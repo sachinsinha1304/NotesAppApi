@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/notes
+
+####
+
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "title": "First Note",
+  "content": "This is a test note created from REST Client"
+}
+
+###
+GET http://localhost:3000/api/notes/1
+
+
+####
+PUT http://localhost:3000/api/notes/1
+Content-Type: application/json
+
+{
+  "title": "Updated Note Title",
+  "content": "This note has been updated using a PUT request"
+}
+
+
+###
+DELETE http://localhost:3000/api/notes/1
+
